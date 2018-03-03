@@ -1,3 +1,6 @@
+set_open_fd() {
+    sudo launchctl limit maxfiles 1000000 1000000
+}
 idc1() {
   sshi pingcap@172.16.10.1
 }
