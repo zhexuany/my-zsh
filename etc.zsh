@@ -77,3 +77,7 @@ clean_ds() {
 dep_graph() {
   dep status -dot | dot -T png | open -f -a /Applications/Preview.app
 }
+
+set_open_fd() {
+    sudo launchctl limit maxfiles 1000000 1000000
+}
