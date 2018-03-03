@@ -1,4 +1,3 @@
-alias sshi='ssh -i ~/.ssh/idc.pem'
 idc1() {
   sshi pingcap@172.16.10.1
 }
