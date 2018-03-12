@@ -1,4 +1,3 @@
-
 update_tispark() {
   if [ ! -z "$SPARK_HOME" ] && [ ! -z "$TISPARK_HOME" ]; then
     if [ -d $TISPARK_HOME/core/target ]; then
