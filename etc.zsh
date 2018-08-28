@@ -43,7 +43,7 @@ update() {
   cd ~/.emacs.d && git pull origin develop
 
   ## update go layer's dependencies
-  go get -u -v github.com/nsf/gocode
+  go get -u -v github.com/mdempsky/gocode
   go get -u -v github.com/rogpeppe/godef
   go get -u -v golang.org/x/tools/cmd/guru
   go get -u -v golang.org/x/tools/cmd/gorename
