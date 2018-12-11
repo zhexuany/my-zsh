@@ -9,3 +9,7 @@ update_tispark() {
     echo "please set SPARK_HOME or TISPARK_HOME"
   fi
 }
+
+spark_run() {
+   spark-shell --jars $TISPARK_HOME/core/target/tispark-core-2.0-SNAPSHOT-jar-with-dependencies.jar
+}
